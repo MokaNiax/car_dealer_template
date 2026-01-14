@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Zenstra Motors - Véhicule</title>
+        
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/footer.css">
+        <link rel="stylesheet" href="/css/global.css">
+        <link rel="stylesheet" href="/css/vehicule.css">
+        <link rel="icon" href="/logo.ico" type="image/x-icon">
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+
+        <script src="/scripts/carousel.js"></script>
+        <script src="/scripts/communHTML.js"></script>
+    </head>
+
+    <body>
+        <div id="header"></div>
+
+        <section class="content">
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="/videos/principal_video.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay">
+                    <h1 id="vehicle-marque"></h1>
+                    <h3 id="vehicle-modele"></h3>
+                </div>
+            </div>
+        </section>
+
+        <hr class="break">
+
+        <div class="custom-div">
+            <p>Année : <span id="vehicle-annee"></span><p>
+            <p>Kilométrage : <span id="vehicle-kilometrage"></span> km</p>
+            <p>Prix : <span id="vehicle-prix"></span> €</p>
+            <p>Couleur : <span id="vehicle-couleur"></span></p>
+            <p>Type : <span id="vehicle-type"></span></p>
+            <p>Carburant : <span id="vehicle-carburant"></span></p>
+            <p>Transmission : <span id="vehicle-transmission"></span></p>
+            <p>Emplacement : <span id="vehicle-emplacement"></span></p>
+            <p>Statut : <span id="vehicle-statut"></span></p>
+            <h3>Options :</h3>
+            <ul id="vehicle-options"></ul>
+            <a href="/contact"><button>Contacter</button></a>
+        </div>
+
+        <section id="vehicle-album" class="album-container">
+            
+        </section>
+
+        <div id="footer"></div>
+
+        <script src="/scripts/vehicule.js"></script>
+    </body> 
+</html>

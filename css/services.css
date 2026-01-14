@@ -1,0 +1,54 @@
+/* Conteneur de la liste des services */
+.service-list-container {
+    background: #181818;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px #d9b453;
+    color: #d9b453;
+}
+
+.service-list-container h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #b4a156;
+    border-bottom: 2px solid #d9b453;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.service-list-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-list-container ul li {
+    padding: 10px 15px;
+    margin: 10px 0;
+    background: #090a08;
+    border-radius: 5px;
+    border-left: 3px solid #d9b453;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.service-list-container ul li:hover {
+    background: #1b1b1b;
+    cursor: pointer;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+    .service-list-container {
+        padding: 15px;
+        width: 90%;
+    }
+    .service-list-container h3 {
+        font-size: 18px;
+    }
+    .service-list-container ul li {
+        font-size: 14px;
+    }
+}

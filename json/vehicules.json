@@ -1,0 +1,33 @@
+{
+    "0": {
+        "marque": "Porsche",
+        "modèle": "911 Carrera",
+        "année": 2025,
+        "kilométrage": 0,
+        "prix": 140000,
+        "couleur": "Blanche",
+        "type": "Sportive",
+        "carburant": "Essence",
+        "transmission": "Automatique",
+        "emplacement": "Zenstra Motors",
+        "statut": "Disponible",
+        "category": "N",
+
+        "options": [
+            "Navigation", 
+            "Caméra de recul", 
+            "Système audio premium"
+        ],
+
+        "images": [
+            "https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXuBuNXdMGF4tl3U0%25z8rMHIspMBvMZq6G5OtgSv31nBJaA4qh4NSEGewirQ91wRmWBi2Ow7gVdc0BtUlhDfzEPspAnPdjEiZJyNydlctBvov1yf8dXFt4yPED6u5MwN9nReLDVo4y7zJJhF%25vUqNaspAnPeGRiZJyNzsnctBvoqB4f8Il7%25oQ6lrQ98AS4GBMNXibELZdW%25tFW%25",
+            "https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXuBuNXdMGF4tl3U0%25z8rMH1spMBvMZq6G5OtgSv31nBJaA4qh4NSEGewirQ91wRmWBi2Ow7gVdc0BtUlhDfzEPspAnPdjEiZJyNydlctBvov1yf8dXFt4yPED6u5MwN9nReLDVo4y7zJJhF%25vUqNaspAnPeGRiZJyNzsnctBvoqB4f8Il7%25oQ6lrQ98AS4GBMNXibELZdW%25tFW%25",
+            "https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXuBuNXdMGF4tl3U0%25z8rMH8spMBvMZq6G5OtgSv31nBJaA4qh4NSEGewirQ91wRmWBi2Ow7gVdc0BtUlhDfzEPspAnPdjEiZJyNydlctBvov1yf8dXFt4yPED6u5MwN9nReLDVo4y7zJJhF%25vUqNaspAnPeGRiZJyNzsnctBvoqB4f8Il7%25oQ6lrQ98AS4GBMNXibELZdW%25tFW%25",
+            "https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXuBuNXdMGF4tl3U0%25z8rMHDspMBvMZq6G5OtgSv31nBJaA4qh4NSEGewirQ91wRmWBi2Ow7gVdc0BtUlhDfzEPspAnPdjEiZJyNydlctBvov1yf8dXFt4yPED6u5MwN9nReLDVo4y7zJJhF%25vUqNaspAnPeGRiZJyNzsnctBvoqB4f8Il7%25oQ6lrQ98AS4GBMNXibELZdW%25tFW%25",
+            "https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXuBuNXdMGF4tl3U0%25z8rMbjUuWgRcgVGPK0rh4mctLsR6EXdGvdTmJK5MeS1BLMN9nRexrMo4y7z3RhF%25vUqCJOuWXsO78JeV6iTi7%25zhRc2cLiqA7fQhdiOJUPY0gMTBsN5pUy2dioC66vQDcFGTEuWXsO5KNeV6iTCuszhRc2GRdqAZ%25oD21P%25S1BAXmdKRgTfeIJpV7nDhQnD",
+            "https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXuBuNXdMGF4tl3U0%25z8rMbjAuWgRcgVGPK0rh4mctLsR6EXdGvdTmJK5MeS1BLMN9nRexrMo4y7z3RhF%25vUqCJOuWXsO78JeV6iTi7%25zhRc2cLiqA7fQhdiOJUPY0gMTBsN5pUy2dioC66vQDcFGTEuWXsO5KNeV6iTCuszhRc2GRdqAZ%25oD21P%25S1BAXmdKRgTfeIJpV7nDhQnD",
+            "https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXuBuNXdMGF4tl3U5Yz8rMHIspMBvMZq6G5OtgSv31nBJaA4qh4NSEGewirQ91wRmWBi2Ow7gVdc0BtUlhDfzEPspAnPdjEiZJyNydlctBvov1yf8dXFt4yPED6u5MwN9nReLDVo4y7zJJhF%25vUqNaspAnPeGRiZJyNzsnctBvoqB4f8Il7%25oQ6lrQ98AS4GBMNXibELZdW%25tFW%25",
+            "https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXuBuNXdMGF4tl3U5Yz8rMH1spMBvMZq6G5OtgSv31nBJaA4qh4NSEGewirQ91wRmWBi2Ow7gVdc0BtUlhDfzEPspAnPdjEiZJyNydlctBvov1yf8dXFt4yPED6u5MwN9nReLDVo4y7zJJhF%25vUqNaspAnPeGRiZJyNzsnctBvoqB4f8Il7%25oQ6lrQ98AS4GBMNXibELZdW%25tFW%25"
+        ]
+    }
+}

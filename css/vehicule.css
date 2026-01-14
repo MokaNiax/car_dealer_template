@@ -1,0 +1,132 @@
+/* Conteneur personnalisé */
+.custom-div {
+    background: #181818;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px #d9b453;
+    color: #e7f2fd;
+}
+
+.custom-div p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.custom-div p span {
+    font-weight: bold;
+    color: #d9b453;
+}
+
+.custom-div h3 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    color: #b4a156;
+    border-bottom: 2px solid #d9b453;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.custom-div ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.custom-div ul li {
+    padding: 8px 10px;
+    margin: 5px 0;
+    background: #090a08;
+    color: #d9b453;
+    border-radius: 5px;
+    border-left: 3px solid #d9b453;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-div ul li:hover {
+    background: #1b1b1b;
+    cursor: pointer;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+    .custom-div {
+        padding: 15px;
+        width: 90%;
+    }
+    .custom-div p {
+        font-size: 14px;
+    }
+    .custom-div h3 {
+        font-size: 18px;
+    }
+}
+
+/* Conteneur album */
+.album-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    background: #090a08;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+.album-item img {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #d9b453;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album-item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(217, 180, 83, 0.5);
+    cursor: pointer;
+}
+
+/* Overlay en plein écran */
+.fullscreen-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.fullscreen-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(217, 180, 83, 0.8);
+}
+
+.fullscreen-overlay.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Bouton de fermeture */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #d9b453;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.close-btn:hover {
+    transform: scale(1.2);
+}
